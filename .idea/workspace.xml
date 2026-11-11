@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bee87dd5-504b-4012-bbf8-63e111a5380d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.github/ISSUE_TEMPLATE/quesiton.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MediaCrawler/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.pre-commit-config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/.python-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/README_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/README_es.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/routers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/routers/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/routers/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/routers/websocket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/schemas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/schemas/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/api/services/crawler_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/base/base_crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cache/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cache/abs_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cache/cache_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cache/local_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cache/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cmd_arg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/cmd_arg/arg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/base_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/bilibili_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/db_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/dy_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/ks_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/tieba_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/weibo_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/xhs_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/config/zhihu_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/constant/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/constant/baidu_tieba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/constant/zhihu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/database/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/database/db_session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/database/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/database/mongodb_store_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/.vitepress/config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/.vitepress/theme/DynamicAds.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/.vitepress/theme/MyLayout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/.vitepress/theme/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/.vitepress/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/CDP模式使用指南.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/STZHONGS.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/data_storage_guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/excel_export_guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/hit_stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/mediacrawlerpro订阅.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/proxylane/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/proxylane/README_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/IP_提取图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/MediaCrawlerPro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/QIWEI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/Thordata.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/atlas_cloud_logo_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/atlas_cloud_logo_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/auto_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/bmc_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/browseract.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/browseract_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/dragtokens_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/helodata_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/img_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/legionproxy_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/mangoproxy_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/mangoproxy_logo_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/nodemaven_banner_oct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/nodemaven_banner_sep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/nstbrowser.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/openlux_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/proxy_seller_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/proxylane_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/relakkes_weichat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/sx_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/tikhub_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/tikhub_banner_zh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/wd_http_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/wd_http_img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/wd_http_img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/wd_http_img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/wechat_pay.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/zfb_pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/代理IP 流程图.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/static/images/修改代理密钥.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/代理使用.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/作者介绍.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/原生环境管理文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/常见问题.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/微信交流群.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/快代理使用文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/手机号登录说明.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/捐赠名单.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/知识付费介绍.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/词云图使用配置.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/豌豆HTTP使用文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/项目代码结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/docs/项目架构文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/libs/douyin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/libs/stealth.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/libs/zhihu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_downloader/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_downloader/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_downloader/ffmpeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_downloader/paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_downloader/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/bilibili/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/douyin/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/comment_list.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/search_query.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/video_detail.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/vision_profile.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/vision_profile_photo_list.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/vision_profile_user_list.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/graphql/vision_sub_comment_list.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/kuaishou/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/test_data/note_comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/test_data/note_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/test_data/note_sub_comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/test_data/search_keyword_notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/tieba/test_data/tieba_note_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/weibo/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/playwright_sign.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/xhs/xhs_sign.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/exception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/media_platform/zhihu/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_baidu_tieba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_bilibili.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_douyin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_kuaishou.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_weibo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_xiaohongshu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/model/m_zhihu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/mypy.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/base_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/providers/jishu_http_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/providers/kuaidl_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/providers/wandou_http_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/proxy_ip_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/proxy_mixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/proxy/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/recv_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/bilibili/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/bilibili/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/douyin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/douyin/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/excel_store_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/kuaishou/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/kuaishou/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/tieba/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/tieba/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/weibo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/weibo/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/xhs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/xhs/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/zhihu/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/store/zhihu/_store_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_db_sync.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_expiring_local_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_mongodb_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_proxy_ip_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/test/test_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/media_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_api_limits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_bilibili_client_comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_bilibili_login_state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_cdp_browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_cdp_browser_timeout_hint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_cmd_arg_media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_cmd_arg_tieba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_douyin_argus_header.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_douyin_aweme_detail_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_douyin_no_user_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_douyin_url_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_excel_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_ip_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_kuaishou_no_user_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_kuaishou_unavailable_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_kuaishou_url_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_media_core_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_media_downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_media_e2e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_media_extractors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_media_ffmpeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_no_user_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_static_proxy_provider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_store_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_tieba_client_pagination.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_tieba_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_weibo_no_user_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_xhs_core_access_error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tests/test_xhs_raw_response_errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/app_runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/async_file_writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/browser_launcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/cdp_browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/crawler_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/easing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/file_header_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/httpx_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/slider_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/time_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/user_hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/tools/words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/uv.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/var.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/logos/bilibili_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/logos/douyin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/logos/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/logos/my_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/logos/xiaohongshu_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/config/CrawlerConfigPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/config/ParsedIdList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/console/Terminal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/console/TerminalLine.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/data/DataExplorer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/data/DataExplorerDialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/data/FileCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/data/preview/DataPreviewDialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/data/preview/DataPreviewTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/env/EnvironmentCheck.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/layout/AuthorFooter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/layout/LanguageSwitch.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/layout/MainContent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/layout/Sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/layout/ThemeToggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/license/LicenseDisclaimer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/accordion.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/badge.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/checkbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/scroll-area.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/components/ui/tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/hooks/useCrawler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/hooks/useWebSocket.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/license.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/en-US/terminal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/env.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/license.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/i18n/locales/zh-CN/terminal.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/lib/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/lib/urlParser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/store/crawlerStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/store/themeStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/types/crawler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaCrawler/webui/vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="186" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MediaCrawler" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3LwjkJ03Xzb0NIfVvy6Fft2yTnv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\pycharm\\PyCharm 2025.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bee87dd5-504b-4012-bbf8-63e111a5380d" name="Changes" comment="" />
+      <created>1794372167534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794372167534</updated>
+      <workItem from="1794372178978" duration="4069000" />
+      <workItem from="1794382717185" duration="5919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
