@@ -1,4 +1,5 @@
 ### api
+```curl
 curl --url 'https://www.douyin.com/aweme/v1/web/general/search/stream/?aid=6383&browser_language=zh-CN&browser_name=Chrome&browser_online=true&browser_platform=Win32&browser_version=157.0.0.0&channel=channel_pc_web&cookie_enabled=true&count=10&cpu_core_num=12&device_memory=16&device_platform=webapp&disable_rs=0&downlink=10&effective_type=4g&enable_history=1&engine_name=Blink&engine_version=157.0.0.0&from_group_id=&is_filter_search=0&keyword=ai&list_type=single&need_filter_settings=1&offset=0&os_name=Windows&os_version=10&pc_client_type=1&pc_libra_divert=Windows&pc_search_top_1_params=%7B%22enable_ai_search_top_1%22%3A1%7D&platform=PC&query_correct_type=1&round_trip_time=50&screen_height=1080&screen_width=1920&search_channel=aweme_general&search_source=normal_search&support_dash=1&support_h265=1&uifid=b684c79658e5909c916769b2e80c406ed39ea89d6c7cce823581f3f595501a340ef2cd421452603427a2adc349929948fc4185205a970667d91527ca2db65a7fb5ec839dd5620c93ee5765509e01be29b94115e44a9770bbfddef0be4c481926c36327e9a2ae7e7b6d57d97c9325caba49c61470d616f458b4813454e5c5e3b949fe4057f6b7d9ba8ce3358ac69ddfc4103201a11ef3568f4b19b109da5693a2&update_version_code=0&version_code=190600&version_name=19.6.0&webid=7700297245891970596&msToken=ZZBdCyRZ5NFDkfXe3Zf0GUGEoK4tgVmk3XDtrGlYN8w00jJMfb2fYPDgYkyVOlZGV76S0cVNmkA6-3u6n7Of1wYgaqdnRtA7P-yZnKd8UBDAoW3_dn89Nl64UyostPLV0Wh-WsUN7EYt946gvObwfqrXypIb9yYKlwpKpEV9BHmP--G7qCgPzuc%3D&a_bogus=QJ4RDzyLxZ5VFd%2FtuCagCRZUouoArPSygqT2WK9UHxizy70Tz8PasOavjoKq8-A0mWBkhH37HnMAbxxcps7spFHpwmkkuDG6K05c9gmLhqwmTFiQDHmDCwszzwsxURGql5V7iIW60Uro6jxAkNQL%2FB5y9Koe55WBFZxjkMucP9s6ZF6ADZcHPQSkPwic055j&verifyFp=verify_mvsupatv_IkecKWj9_kGmD_4k5w_8Vaw_vmMKu7woTgMO&fp=verify_mvsupatv_IkecKWj9_kGmD_4k5w_8Vaw_vmMKu7woTgMO' \
   -H 'accept: */*' \
   -H 'accept-language: zh-CN,zh;q=0.9,zh-TW;q=0.8' \
@@ -16,7 +17,9 @@ curl --url 'https://www.douyin.com/aweme/v1/web/general/search/stream/?aid=6383&
   -H 'uifid: b684c79658e5909c916769b2e80c406ed39ea89d6c7cce823581f3f595501a340ef2cd421452603427a2adc349929948fc4185205a970667d91527ca2db65a7fb5ec839dd5620c93ee5765509e01be29b94115e44a9770bbfddef0be4c481926c36327e9a2ae7e7b6d57d97c9325caba49c61470d616f458b4813454e5c5e3b949fe4057f6b7d9ba8ce3358ac69ddfc4103201a11ef3568f4b19b109da5693a2' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36'
 
-### response
+```
+
+### respons
 ea2b{
     "status_code": 0,
     "data": [
